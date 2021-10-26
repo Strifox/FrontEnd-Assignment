@@ -1,0 +1,171 @@
+/* Common css for all pages*/
+
+header {
+    display: flex;
+    position: fixed;
+    flex-direction: row;
+    background-color: #333;
+    align-items: center; 
+    width: 100%;
+}
+
+header h1{
+    display: flex;
+    float: left;
+    padding: 10px
+}
+
+header ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #333;
+    top: 0;
+    width: 100%;
+}
+  
+header li {
+    float: left;
+}
+  
+header li a {
+    display: block;
+    color: white;
+    text-align: center;
+    border-radius: 10%;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+  
+header li a:hover:not(.active) {
+    background-color: #111;
+}
+
+
+header h1{
+    display: flex;
+    left: 10px;
+    color: white;
+}
+
+/* Index page css*/
+
+.indexbody {
+    display: flex;
+    flex-direction: column;
+    font-family: sans-serif;
+    width: 1024px;
+    margin: 0;
+}
+
+#loginbtn{
+    display: block;
+    position: fixed;
+    right: 10px;
+    background-color: royalblue;
+}
+
+.articles {
+    display: flex;
+}
+
+#article {
+    padding: 0 10px 0 10px;
+}
+
+#article1p2 {
+    font-weight: bold;
+    color: blue;
+}
+
+#subtext {
+    margin-top: 100px;
+    padding: 0 10px 0 10px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+aside {
+    position: fixed;
+    right: 10px;
+    top: 100px;
+    width: 40%;
+    float: right;
+}
+
+aside li:nth-child(odd) { color: green; }
+aside li:nth-child(even) { color: red; }
+
+footer{
+    display: flex;
+    position: fixed;
+    bottom: 0;
+}
+
+/* Login page css */
+
+.loginbody {
+    display: flex;
+    flex-direction: column;
+    font-family: sans-serif;
+    margin: 0;
+}
+
+#indexbtn{
+    display: block;
+    position: fixed;
+    right: 10px;
+    background-color: royalblue;
+}
+
+.userloginform h1 {
+    padding-top: 10%;
+    text-transform: uppercase;
+}
+
+.userloginform {
+    padding: 100px;
+    padding-left: 30%;
+}
+
+#username {
+    width: 50ch;
+    height: 4ch;
+    border-radius: 5px;
+    text-indent: 1ch;
+    font-size: 10pt;
+}
+
+#password {
+    width: 50ch;
+    height: 4ch;
+    border-radius: 5px;
+    text-indent: 1ch;
+    font-size: 10pt;
+}
+
+input[type=submit] {
+    background-color: blue; /* Green */
+    border: none;
+    border-radius: 5px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+input[type=reset] {
+    background-color: red; /* Green */
+    border: none;
+    border-radius: 5px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
